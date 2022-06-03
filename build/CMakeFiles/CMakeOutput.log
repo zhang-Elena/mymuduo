@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/elena/桌面/elena/muduo
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cbba1/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cbba1.dir/build.make CMakeFiles/cmTC_cbba1.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_ca33b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca33b.dir/build.make CMakeFiles/cmTC_ca33b.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cbba1.dir/testCCompiler.c.o
-/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_cbba1.dir/testCCompiler.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_cbba1
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbba1.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_cbba1.dir/testCCompiler.c.o  -o cmTC_cbba1 
+Building C object CMakeFiles/cmTC_ca33b.dir/testCCompiler.c.o
+/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_ca33b.dir/testCCompiler.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ca33b
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca33b.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_ca33b.dir/testCCompiler.c.o  -o cmTC_ca33b 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e48be/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e48be.dir/build.make CMakeFiles/cmTC_e48be.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_934cf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_934cf.dir/build.make CMakeFiles/cmTC_934cf.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o
-/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e48be
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48be.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc      -v CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o  -o cmTC_e48be  
+Building C object CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o
+/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_934cf
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_934cf.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc      -v CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o  -o cmTC_934cf  
 使用内建 specs。
 COLLECT_GCC=/bin/x86_64-redhat-linux-gcc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,8 +59,8 @@ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
 gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/local/lib/../lib64/:/usr/local/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/:/usr/local/lib/:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e48be' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e48be /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_934cf' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_934cf /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_e48be/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_e48be.dir/build.make CMakeFiles/cmTC_e48be.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_934cf/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_934cf.dir/build.make CMakeFiles/cmTC_934cf.dir/build]
   ignore line: [gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e48be]
-  ignore line: [/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48be.dir/link.txt --verbose=1]
-  ignore line: [/bin/x86_64-redhat-linux-gcc      -v CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o  -o cmTC_e48be  ]
+  ignore line: [Building C object CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/x86_64-redhat-linux-gcc     -o CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_934cf]
+  ignore line: [/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_934cf.dir/link.txt --verbose=1]
+  ignore line: [/bin/x86_64-redhat-linux-gcc      -v CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o  -o cmTC_934cf  ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/bin/x86_64-redhat-linux-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/local/lib/../lib64/:/usr/local/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/:/usr/local/lib/:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e48be' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e48be /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_934cf' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_934cf /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -97,7 +97,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e48be] ==> ignore
+    arg [cmTC_934cf] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_e48be.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_934cf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -146,14 +146,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_670af/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_670af.dir/build.make CMakeFiles/cmTC_670af.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_6c9b6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6c9b6.dir/build.make CMakeFiles/cmTC_6c9b6.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_670af.dir/feature_tests.c.o
-/bin/x86_64-redhat-linux-gcc    -std=c11 -o CMakeFiles/cmTC_670af.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_670af
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_670af.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_670af.dir/feature_tests.c.o  -o cmTC_670af 
+Building C object CMakeFiles/cmTC_6c9b6.dir/feature_tests.c.o
+/bin/x86_64-redhat-linux-gcc    -std=c11 -o CMakeFiles/cmTC_6c9b6.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6c9b6
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c9b6.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_6c9b6.dir/feature_tests.c.o  -o cmTC_6c9b6 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -166,14 +166,14 @@ gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cb41a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cb41a.dir/build.make CMakeFiles/cmTC_cb41a.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_eb057/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eb057.dir/build.make CMakeFiles/cmTC_eb057.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cb41a.dir/feature_tests.c.o
-/bin/x86_64-redhat-linux-gcc    -std=c99 -o CMakeFiles/cmTC_cb41a.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cb41a
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb41a.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_cb41a.dir/feature_tests.c.o  -o cmTC_cb41a 
+Building C object CMakeFiles/cmTC_eb057.dir/feature_tests.c.o
+/bin/x86_64-redhat-linux-gcc    -std=c99 -o CMakeFiles/cmTC_eb057.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eb057
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb057.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_eb057.dir/feature_tests.c.o  -o cmTC_eb057 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -186,14 +186,14 @@ gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2849f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2849f.dir/build.make CMakeFiles/cmTC_2849f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_b6798/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b6798.dir/build.make CMakeFiles/cmTC_b6798.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_2849f.dir/feature_tests.c.o
-/bin/x86_64-redhat-linux-gcc    -std=c90 -o CMakeFiles/cmTC_2849f.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2849f
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2849f.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_2849f.dir/feature_tests.c.o  -o cmTC_2849f 
+Building C object CMakeFiles/cmTC_b6798.dir/feature_tests.c.o
+/bin/x86_64-redhat-linux-gcc    -std=c90 -o CMakeFiles/cmTC_b6798.dir/feature_tests.c.o   -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b6798
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6798.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-gcc       CMakeFiles/cmTC_b6798.dir/feature_tests.c.o  -o cmTC_b6798 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -204,28 +204,28 @@ gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_260f2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_260f2.dir/build.make CMakeFiles/cmTC_260f2.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_12c18/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_12c18.dir/build.make CMakeFiles/cmTC_12c18.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_260f2.dir/testCXXCompiler.cxx.o
-/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_260f2.dir/testCXXCompiler.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_260f2
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260f2.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_260f2.dir/testCXXCompiler.cxx.o  -o cmTC_260f2 
+Building CXX object CMakeFiles/cmTC_12c18.dir/testCXXCompiler.cxx.o
+/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_12c18.dir/testCXXCompiler.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_12c18
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c18.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_12c18.dir/testCXXCompiler.cxx.o  -o cmTC_12c18 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_392b6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_392b6.dir/build.make CMakeFiles/cmTC_392b6.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_3aded/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3aded.dir/build.make CMakeFiles/cmTC_3aded.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o
-/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_392b6
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_392b6.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-g++       -v CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_392b6  
+Building CXX object CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o
+/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3aded
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aded.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-g++       -v CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3aded  
 使用内建 specs。
 COLLECT_GCC=/bin/x86_64-redhat-linux-g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -235,8 +235,8 @@ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
 gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/local/lib/../lib64/:/usr/local/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/:/usr/local/lib/:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_392b6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_392b6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3aded' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3aded /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -244,14 +244,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_392b6/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_392b6.dir/build.make CMakeFiles/cmTC_392b6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_3aded/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_3aded.dir/build.make CMakeFiles/cmTC_3aded.dir/build]
   ignore line: [gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_392b6]
-  ignore line: [/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_392b6.dir/link.txt --verbose=1]
-  ignore line: [/bin/x86_64-redhat-linux-g++       -v CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_392b6  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/x86_64-redhat-linux-g++      -o CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.6.0/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3aded]
+  ignore line: [/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aded.dir/link.txt --verbose=1]
+  ignore line: [/bin/x86_64-redhat-linux-g++       -v CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3aded  ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/bin/x86_64-redhat-linux-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -261,8 +261,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/local/lib/../lib64/:/usr/local/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/:/usr/local/lib/:./:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_392b6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_392b6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3aded' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3aded /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/local/lib/../lib64 -L/usr/local/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib -L/usr/local/lib -L. -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -273,7 +273,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_392b6] ==> ignore
+    arg [cmTC_3aded] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -287,7 +287,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_392b6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_3aded.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -320,14 +320,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ca5af/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_ca5af.dir/build.make CMakeFiles/cmTC_ca5af.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_b91c3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b91c3.dir/build.make CMakeFiles/cmTC_b91c3.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_ca5af.dir/feature_tests.cxx.o
-/bin/x86_64-redhat-linux-g++     -std=c++1y -o CMakeFiles/cmTC_ca5af.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ca5af
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca5af.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_ca5af.dir/feature_tests.cxx.o  -o cmTC_ca5af 
+Building CXX object CMakeFiles/cmTC_b91c3.dir/feature_tests.cxx.o
+/bin/x86_64-redhat-linux-g++     -std=c++1y -o CMakeFiles/cmTC_b91c3.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b91c3
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b91c3.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_b91c3.dir/feature_tests.cxx.o  -o cmTC_b91c3 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -393,14 +393,14 @@ gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_81282/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_81282.dir/build.make CMakeFiles/cmTC_81282.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_399b0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_399b0.dir/build.make CMakeFiles/cmTC_399b0.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_81282.dir/feature_tests.cxx.o
-/bin/x86_64-redhat-linux-g++     -std=c++11 -o CMakeFiles/cmTC_81282.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_81282
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81282.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_81282.dir/feature_tests.cxx.o  -o cmTC_81282 
+Building CXX object CMakeFiles/cmTC_399b0.dir/feature_tests.cxx.o
+/bin/x86_64-redhat-linux-g++     -std=c++11 -o CMakeFiles/cmTC_399b0.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_399b0
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_399b0.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_399b0.dir/feature_tests.cxx.o  -o cmTC_399b0 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 
@@ -466,14 +466,14 @@ gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fe559/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fe559.dir/build.make CMakeFiles/cmTC_fe559.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_2ae14/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2ae14.dir/build.make CMakeFiles/cmTC_2ae14.dir/build
 gmake[1]: 进入目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_fe559.dir/feature_tests.cxx.o
-/bin/x86_64-redhat-linux-g++     -std=c++98 -o CMakeFiles/cmTC_fe559.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fe559
-/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe559.dir/link.txt --verbose=1
-/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_fe559.dir/feature_tests.cxx.o  -o cmTC_fe559 
+Building CXX object CMakeFiles/cmTC_2ae14.dir/feature_tests.cxx.o
+/bin/x86_64-redhat-linux-g++     -std=c++98 -o CMakeFiles/cmTC_2ae14.dir/feature_tests.cxx.o -c /home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2ae14
+/usr/local/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae14.dir/link.txt --verbose=1
+/bin/x86_64-redhat-linux-g++        CMakeFiles/cmTC_2ae14.dir/feature_tests.cxx.o  -o cmTC_2ae14 
 gmake[1]: 离开目录“/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles/CMakeTmp”
 
 

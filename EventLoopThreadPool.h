@@ -9,13 +9,13 @@
 
 class EventLoop;
 class EventLoopThread;
-class EventThreadLoop :noncopyable
+class EventLoopThreadPool :noncopyable
 {
 public:
     using ThreadInitCallback = std::function<void(EventLoop*)>;
 
-    EventThreadLoop(EventLoop *baseLoop, const std::string &nameArg);
-    ~EventThreadLoop();
+    EventLoopThreadPool(EventLoop *baseLoop, const std::string &nameArg);
+    ~EventLoopThreadPool();
 
     void setThreadNum(int numThreads) {numThreads_ = numThreads;}
 

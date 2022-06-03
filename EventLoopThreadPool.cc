@@ -1,19 +1,19 @@
-#include "EventThreadLoop.h"
+#include "EventLoopThreadPool.h"
 #include "EventLoopThread.h"
 
 #include <memory>
 
-EventThreadLoop::EventThreadLoop(EventLoop *baseLoop, const std::string &nameArg)
+EventLoopThreadPool::EventLoopThreadPool(EventLoop *baseLoop, const std::string &nameArg)
                 :baseLoop_(baseLoop), name_(nameArg), started_(false), numThreads_(0),next_(0)
 {
 
 }
-EventThreadLoop::~EventThreadLoop(){
+EventLoopThreadPool::~EventLoopThreadPool(){
 
 }
 
 
-void EventThreadLoop::start(const ThreadInitCallback &cb){
+void EventLoopThreadPool::start(const ThreadInitCallback &cb){
     started_ = true;
 
     for(int i = 0; i < numThreads_; ++i){
@@ -31,7 +31,7 @@ void EventThreadLoop::start(const ThreadInitCallback &cb){
 }
 
 //如果工作在多线程中，baseLoop默认以轮询方式分配channel给subLoop
-EventLoop* EventThreadLoop::getNextLoop(){
+EventLoop* EventLoopThreadPool::getNextLoop(){
     EventLoop *loop = baseLoop_;
 
     //有独立事件循环
@@ -46,7 +46,7 @@ EventLoop* EventThreadLoop::getNextLoop(){
     return loop;
 }
 
-std::vector<EventLoop*> EventThreadLoop::getAllLoops(){
+std::vector<EventLoop*> EventLoopThreadPool::getAllLoops(){
     if(loops_.empty()){
         return std::vector<EventLoop*>(1,baseLoop_);
     }

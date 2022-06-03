@@ -26,13 +26,23 @@
 },
 {
   "directory": "/home/elena/桌面/elena/muduo/mymuduo/build",
+  "command": "/bin/x86_64-redhat-linux-g++   -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/TcpConnection.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc",
+  "file": "/home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc"
+},
+{
+  "directory": "/home/elena/桌面/elena/muduo/mymuduo/build",
   "command": "/bin/x86_64-redhat-linux-g++   -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Acceptor.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc",
   "file": "/home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc"
 },
 {
   "directory": "/home/elena/桌面/elena/muduo/mymuduo/build",
-  "command": "/bin/x86_64-redhat-linux-g++   -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EventThreadLoop.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventThreadLoop.cc",
-  "file": "/home/elena/桌面/elena/muduo/mymuduo/EventThreadLoop.cc"
+  "command": "/bin/x86_64-redhat-linux-g++   -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Buffer.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc",
+  "file": "/home/elena/桌面/elena/muduo/mymuduo/Buffer.cc"
+},
+{
+  "directory": "/home/elena/桌面/elena/muduo/mymuduo/build",
+  "command": "/bin/x86_64-redhat-linux-g++   -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc",
+  "file": "/home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc"
 },
 {
   "directory": "/home/elena/桌面/elena/muduo/mymuduo/build",

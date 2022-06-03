@@ -150,6 +150,33 @@ Acceptor.cc.s:
 	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Acceptor.cc.s
 .PHONY : Acceptor.cc.s
 
+Buffer.o: Buffer.cc.o
+
+.PHONY : Buffer.o
+
+# target to build an object file
+Buffer.cc.o:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Buffer.cc.o
+.PHONY : Buffer.cc.o
+
+Buffer.i: Buffer.cc.i
+
+.PHONY : Buffer.i
+
+# target to preprocess a source file
+Buffer.cc.i:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Buffer.cc.i
+.PHONY : Buffer.cc.i
+
+Buffer.s: Buffer.cc.s
+
+.PHONY : Buffer.s
+
+# target to generate assembly for a file
+Buffer.cc.s:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Buffer.cc.s
+.PHONY : Buffer.cc.s
+
 Channel.o: Channel.cc.o
 
 .PHONY : Channel.o
@@ -312,32 +339,32 @@ EventLoopThread.cc.s:
 	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventLoopThread.cc.s
 .PHONY : EventLoopThread.cc.s
 
-EventThreadLoop.o: EventThreadLoop.cc.o
+EventLoopThreadPool.o: EventLoopThreadPool.cc.o
 
-.PHONY : EventThreadLoop.o
+.PHONY : EventLoopThreadPool.o
 
 # target to build an object file
-EventThreadLoop.cc.o:
-	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventThreadLoop.cc.o
-.PHONY : EventThreadLoop.cc.o
+EventLoopThreadPool.cc.o:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o
+.PHONY : EventLoopThreadPool.cc.o
 
-EventThreadLoop.i: EventThreadLoop.cc.i
+EventLoopThreadPool.i: EventLoopThreadPool.cc.i
 
-.PHONY : EventThreadLoop.i
+.PHONY : EventLoopThreadPool.i
 
 # target to preprocess a source file
-EventThreadLoop.cc.i:
-	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventThreadLoop.cc.i
-.PHONY : EventThreadLoop.cc.i
+EventLoopThreadPool.cc.i:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.i
+.PHONY : EventLoopThreadPool.cc.i
 
-EventThreadLoop.s: EventThreadLoop.cc.s
+EventLoopThreadPool.s: EventLoopThreadPool.cc.s
 
-.PHONY : EventThreadLoop.s
+.PHONY : EventLoopThreadPool.s
 
 # target to generate assembly for a file
-EventThreadLoop.cc.s:
-	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventThreadLoop.cc.s
-.PHONY : EventThreadLoop.cc.s
+EventLoopThreadPool.cc.s:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.s
+.PHONY : EventLoopThreadPool.cc.s
 
 InetAddress.o: InetAddress.cc.o
 
@@ -447,6 +474,33 @@ Socket.cc.s:
 	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/Socket.cc.s
 .PHONY : Socket.cc.s
 
+TcpConnection.o: TcpConnection.cc.o
+
+.PHONY : TcpConnection.o
+
+# target to build an object file
+TcpConnection.cc.o:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/TcpConnection.cc.o
+.PHONY : TcpConnection.cc.o
+
+TcpConnection.i: TcpConnection.cc.i
+
+.PHONY : TcpConnection.i
+
+# target to preprocess a source file
+TcpConnection.cc.i:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/TcpConnection.cc.i
+.PHONY : TcpConnection.cc.i
+
+TcpConnection.s: TcpConnection.cc.s
+
+.PHONY : TcpConnection.s
+
+# target to generate assembly for a file
+TcpConnection.cc.s:
+	$(MAKE) -f CMakeFiles/mymuduo.dir/build.make CMakeFiles/mymuduo.dir/TcpConnection.cc.s
+.PHONY : TcpConnection.cc.s
+
 TcpServer.o: TcpServer.cc.o
 
 .PHONY : TcpServer.o
@@ -540,6 +594,9 @@ help:
 	@echo "... Acceptor.o"
 	@echo "... Acceptor.i"
 	@echo "... Acceptor.s"
+	@echo "... Buffer.o"
+	@echo "... Buffer.i"
+	@echo "... Buffer.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -558,9 +615,9 @@ help:
 	@echo "... EventLoopThread.o"
 	@echo "... EventLoopThread.i"
 	@echo "... EventLoopThread.s"
-	@echo "... EventThreadLoop.o"
-	@echo "... EventThreadLoop.i"
-	@echo "... EventThreadLoop.s"
+	@echo "... EventLoopThreadPool.o"
+	@echo "... EventLoopThreadPool.i"
+	@echo "... EventLoopThreadPool.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
@@ -573,6 +630,9 @@ help:
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
+	@echo "... TcpConnection.o"
+	@echo "... TcpConnection.i"
+	@echo "... TcpConnection.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"
