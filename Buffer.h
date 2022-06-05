@@ -12,8 +12,6 @@
  * 0       <=     readerIndex   <=     writerIndex    <=         size
  */
 
-
-
 class Buffer
 {
 public:
@@ -102,6 +100,8 @@ public:
 
     //从fd上读取数据
     ssize_t readFd(int fd, int* saveErrno);
+
+    ssize_t writeFd(int fd, int* saveErrno);
 private:
     char* begin(){
         //调用迭代器*号重载函数，访问底层元素本身，取地址又返回数据的地址

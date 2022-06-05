@@ -82,9 +82,21 @@ CMakeFiles/mymuduo.dir/Socket.cc.o
  /home/elena/桌面/elena/muduo/mymuduo/Socket.h
  /home/elena/桌面/elena/muduo/mymuduo/noncopyable.h
 CMakeFiles/mymuduo.dir/TcpConnection.cc.o
+ /home/elena/桌面/elena/muduo/mymuduo/Buffer.h
+ /home/elena/桌面/elena/muduo/mymuduo/Callbacks.h
+ /home/elena/桌面/elena/muduo/mymuduo/Channel.h
+ /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.h
+ /home/elena/桌面/elena/muduo/mymuduo/EventLoop.h
+ /home/elena/桌面/elena/muduo/mymuduo/InetAddress.h
+ /home/elena/桌面/elena/muduo/mymuduo/Logger.h
+ /home/elena/桌面/elena/muduo/mymuduo/Socket.h
  /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc
+ /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.h
+ /home/elena/桌面/elena/muduo/mymuduo/Timestamp.h
+ /home/elena/桌面/elena/muduo/mymuduo/noncopyable.h
 CMakeFiles/mymuduo.dir/TcpServer.cc.o
  /home/elena/桌面/elena/muduo/mymuduo/Acceptor.h
+ /home/elena/桌面/elena/muduo/mymuduo/Buffer.h
  /home/elena/桌面/elena/muduo/mymuduo/Callbacks.h
  /home/elena/桌面/elena/muduo/mymuduo/Channel.h
  /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.h
@@ -93,6 +105,7 @@ CMakeFiles/mymuduo.dir/TcpServer.cc.o
  /home/elena/桌面/elena/muduo/mymuduo/InetAddress.h
  /home/elena/桌面/elena/muduo/mymuduo/Logger.h
  /home/elena/桌面/elena/muduo/mymuduo/Socket.h
+ /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.h
  /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc
  /home/elena/桌面/elena/muduo/mymuduo/TcpServer.h
  /home/elena/桌面/elena/muduo/mymuduo/Timestamp.h

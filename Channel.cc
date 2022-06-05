@@ -15,7 +15,8 @@ Channel::Channel(EventLoop *loop, int fd)
 
 Channel::~Channel(){}
 
-//channel的tie方法什么时候调用过
+//channel的tie方法什么时候调用过?
+//连接一个TcpConnection新连接创建的时候 TcpConnection底层管理Channel
 void Channel::tie(const std::shared_ptr<void> &obj){
     tie_ = obj;
     tied_ = true;
@@ -56,26 +57,26 @@ void Channel::handleEventWithGuard(Timestamp receiveTime){
     LOG_INFO("channel handleEvent revents:%d\n", revents_);
 
     if((revents_ & EPOLLHUP) && !(revents_ & EPOLLIN)){
-        if(closeCallBack_){
-            closeCallBack_();
+        if(closeCallback_){
+            closeCallback_();
         }
     }
 
     if(revents_ & EPOLLERR){
-        if(errorCallBack_){
-            errorCallBack_();
+        if(errorCallback_){
+            errorCallback_();
         }
     }
 
     if(revents_ & (EPOLLIN | EPOLLPRI)){
-        if(readCallBack_){
-            readCallBack_(receiveTime);
+        if(readCallback_){
+            readCallback_(receiveTime);
         }
     }
 
     if(revents_ & EPOLLOUT){
-        if(writeCallBack_){
-            writeCallBack_();
+        if(writeCallback_){
+            writeCallback_();
         }
     }
 }

@@ -2,6 +2,8 @@
 
 #include <errno.h>
 #include <sys/uio.h>
+#include <unistd.h>
+
 /**
  * 从fd上读取数据，Poller工作在LT模式（数据没读取完会不断上报，好处为数据不会丢失）
  * Buffer缓冲区是有大小的  但是从fd上读取数据的时候，却不知道tcp数据最终的大小
@@ -31,6 +33,14 @@ ssize_t Buffer::readFd(int fd, int* saveErrno){
         writerIndex_ = buffer_.size();
         //writerIndex_开始写n - writable大小的数据
         append(extrabuf, n - writable);
+    }
+    return n;
+}
+
+ssize_t  Buffer::writeFd(int fd, int* saveErrno){
+    ssize_t n = ::write(fd, peek(), readableBytes());
+    if(n < 0){
+        *saveErrno = errno;
     }
     return n;
 }

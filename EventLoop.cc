@@ -38,7 +38,7 @@ EventLoop::EventLoop(): looping_(false), quit_(false), callingPendingFunctors_(f
     }
 
     //设置wakeup的事件类型以及发生事件后的回调操作
-    wakeupChannel_->setReadCallBack(std::bind(&EventLoop::handleRead, this));
+    wakeupChannel_->setReadCallback(std::bind(&EventLoop::handleRead, this));
     //每一个eventloop都将监听wakeupchannel的EPOLLIN读事件
     wakeupChannel_->enableReading();
 

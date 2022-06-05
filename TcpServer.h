@@ -58,7 +58,7 @@ private:
     using ConnectionMap = std::unordered_map<std::string, TcpConnectionPtr>;
 
     EventLoop *loop_; //baseLoop用户定义的loop
-    const std::string inPort_;
+    const std::string ipPort_;
     const std::string name_;
 
     std::unique_ptr<Acceptor> acceptor_; //运行在mainLoop，作用为监听新连接事件
