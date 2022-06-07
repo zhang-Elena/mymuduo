@@ -60,15 +60,15 @@ include CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Timestamp.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Timestamp.cc.o: ../Timestamp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mymuduo.dir/Timestamp.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Timestamp.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Timestamp.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc
 
 CMakeFiles/mymuduo.dir/Timestamp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Timestamp.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc > CMakeFiles/mymuduo.dir/Timestamp.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc > CMakeFiles/mymuduo.dir/Timestamp.cc.i
 
 CMakeFiles/mymuduo.dir/Timestamp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Timestamp.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc -o CMakeFiles/mymuduo.dir/Timestamp.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc -o CMakeFiles/mymuduo.dir/Timestamp.cc.s
 
 CMakeFiles/mymuduo.dir/Timestamp.cc.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/mymuduo.dir/Timestamp.cc.o.provides.build: CMakeFiles/mymuduo.dir/Tim
 CMakeFiles/mymuduo.dir/InetAddress.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/InetAddress.cc.o: ../InetAddress.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mymuduo.dir/InetAddress.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/InetAddress.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/InetAddress.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc
 
 CMakeFiles/mymuduo.dir/InetAddress.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/InetAddress.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc > CMakeFiles/mymuduo.dir/InetAddress.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc > CMakeFiles/mymuduo.dir/InetAddress.cc.i
 
 CMakeFiles/mymuduo.dir/InetAddress.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/InetAddress.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc -o CMakeFiles/mymuduo.dir/InetAddress.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/InetAddress.cc -o CMakeFiles/mymuduo.dir/InetAddress.cc.s
 
 CMakeFiles/mymuduo.dir/InetAddress.cc.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/mymuduo.dir/InetAddress.cc.o.provides.build: CMakeFiles/mymuduo.dir/I
 CMakeFiles/mymuduo.dir/Poller.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Poller.cc.o: ../Poller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mymuduo.dir/Poller.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Poller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Poller.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Poller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Poller.cc
 
 CMakeFiles/mymuduo.dir/Poller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Poller.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Poller.cc > CMakeFiles/mymuduo.dir/Poller.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Poller.cc > CMakeFiles/mymuduo.dir/Poller.cc.i
 
 CMakeFiles/mymuduo.dir/Poller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Poller.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Poller.cc -o CMakeFiles/mymuduo.dir/Poller.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Poller.cc -o CMakeFiles/mymuduo.dir/Poller.cc.s
 
 CMakeFiles/mymuduo.dir/Poller.cc.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/mymuduo.dir/Poller.cc.o.provides.build: CMakeFiles/mymuduo.dir/Poller
 CMakeFiles/mymuduo.dir/EPollPoller.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EPollPoller.cc.o: ../EPollPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mymuduo.dir/EPollPoller.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EPollPoller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EPollPoller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc
 
 CMakeFiles/mymuduo.dir/EPollPoller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/EPollPoller.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc > CMakeFiles/mymuduo.dir/EPollPoller.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc > CMakeFiles/mymuduo.dir/EPollPoller.cc.i
 
 CMakeFiles/mymuduo.dir/EPollPoller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/EPollPoller.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc -o CMakeFiles/mymuduo.dir/EPollPoller.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EPollPoller.cc -o CMakeFiles/mymuduo.dir/EPollPoller.cc.s
 
 CMakeFiles/mymuduo.dir/EPollPoller.cc.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/mymuduo.dir/EPollPoller.cc.o.provides.build: CMakeFiles/mymuduo.dir/E
 CMakeFiles/mymuduo.dir/Socket.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Socket.cc.o: ../Socket.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mymuduo.dir/Socket.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Socket.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Socket.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Socket.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Socket.cc
 
 CMakeFiles/mymuduo.dir/Socket.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Socket.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Socket.cc > CMakeFiles/mymuduo.dir/Socket.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Socket.cc > CMakeFiles/mymuduo.dir/Socket.cc.i
 
 CMakeFiles/mymuduo.dir/Socket.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Socket.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Socket.cc -o CMakeFiles/mymuduo.dir/Socket.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Socket.cc -o CMakeFiles/mymuduo.dir/Socket.cc.s
 
 CMakeFiles/mymuduo.dir/Socket.cc.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/mymuduo.dir/Socket.cc.o.provides.build: CMakeFiles/mymuduo.dir/Socket
 CMakeFiles/mymuduo.dir/TcpConnection.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/TcpConnection.cc.o: ../TcpConnection.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mymuduo.dir/TcpConnection.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/TcpConnection.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/TcpConnection.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc
 
 CMakeFiles/mymuduo.dir/TcpConnection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/TcpConnection.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc > CMakeFiles/mymuduo.dir/TcpConnection.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc > CMakeFiles/mymuduo.dir/TcpConnection.cc.i
 
 CMakeFiles/mymuduo.dir/TcpConnection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/TcpConnection.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc -o CMakeFiles/mymuduo.dir/TcpConnection.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/TcpConnection.cc -o CMakeFiles/mymuduo.dir/TcpConnection.cc.s
 
 CMakeFiles/mymuduo.dir/TcpConnection.cc.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/mymuduo.dir/TcpConnection.cc.o.provides.build: CMakeFiles/mymuduo.dir
 CMakeFiles/mymuduo.dir/Acceptor.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Acceptor.cc.o: ../Acceptor.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mymuduo.dir/Acceptor.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Acceptor.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Acceptor.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc
 
 CMakeFiles/mymuduo.dir/Acceptor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Acceptor.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc > CMakeFiles/mymuduo.dir/Acceptor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc > CMakeFiles/mymuduo.dir/Acceptor.cc.i
 
 CMakeFiles/mymuduo.dir/Acceptor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Acceptor.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc -o CMakeFiles/mymuduo.dir/Acceptor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Acceptor.cc -o CMakeFiles/mymuduo.dir/Acceptor.cc.s
 
 CMakeFiles/mymuduo.dir/Acceptor.cc.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/mymuduo.dir/Acceptor.cc.o.provides.build: CMakeFiles/mymuduo.dir/Acce
 CMakeFiles/mymuduo.dir/Buffer.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Buffer.cc.o: ../Buffer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mymuduo.dir/Buffer.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Buffer.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Buffer.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc
 
 CMakeFiles/mymuduo.dir/Buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Buffer.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc > CMakeFiles/mymuduo.dir/Buffer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc > CMakeFiles/mymuduo.dir/Buffer.cc.i
 
 CMakeFiles/mymuduo.dir/Buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Buffer.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc -o CMakeFiles/mymuduo.dir/Buffer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Buffer.cc -o CMakeFiles/mymuduo.dir/Buffer.cc.s
 
 CMakeFiles/mymuduo.dir/Buffer.cc.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/mymuduo.dir/Buffer.cc.o.provides.build: CMakeFiles/mymuduo.dir/Buffer
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o: ../EventLoopThreadPool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc
 
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc > CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc > CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.i
 
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.cc -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.s
 
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/mymuduo.dir/EventLoopThreadPool.cc.o.provides.build: CMakeFiles/mymud
 CMakeFiles/mymuduo.dir/EventLoop.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoop.cc.o: ../EventLoop.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mymuduo.dir/EventLoop.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoop.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoop.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc
 
 CMakeFiles/mymuduo.dir/EventLoop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/EventLoop.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc > CMakeFiles/mymuduo.dir/EventLoop.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc > CMakeFiles/mymuduo.dir/EventLoop.cc.i
 
 CMakeFiles/mymuduo.dir/EventLoop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/EventLoop.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc -o CMakeFiles/mymuduo.dir/EventLoop.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoop.cc -o CMakeFiles/mymuduo.dir/EventLoop.cc.s
 
 CMakeFiles/mymuduo.dir/EventLoop.cc.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/mymuduo.dir/EventLoop.cc.o.provides.build: CMakeFiles/mymuduo.dir/Eve
 CMakeFiles/mymuduo.dir/DefaultPoller.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/DefaultPoller.cc.o: ../DefaultPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mymuduo.dir/DefaultPoller.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/DefaultPoller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/DefaultPoller.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc
 
 CMakeFiles/mymuduo.dir/DefaultPoller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/DefaultPoller.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc > CMakeFiles/mymuduo.dir/DefaultPoller.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc > CMakeFiles/mymuduo.dir/DefaultPoller.cc.i
 
 CMakeFiles/mymuduo.dir/DefaultPoller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/DefaultPoller.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc -o CMakeFiles/mymuduo.dir/DefaultPoller.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/DefaultPoller.cc -o CMakeFiles/mymuduo.dir/DefaultPoller.cc.s
 
 CMakeFiles/mymuduo.dir/DefaultPoller.cc.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/mymuduo.dir/DefaultPoller.cc.o.provides.build: CMakeFiles/mymuduo.dir
 CMakeFiles/mymuduo.dir/Thread.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Thread.cc.o: ../Thread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mymuduo.dir/Thread.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Thread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Thread.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Thread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Thread.cc
 
 CMakeFiles/mymuduo.dir/Thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Thread.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Thread.cc > CMakeFiles/mymuduo.dir/Thread.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Thread.cc > CMakeFiles/mymuduo.dir/Thread.cc.i
 
 CMakeFiles/mymuduo.dir/Thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Thread.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Thread.cc -o CMakeFiles/mymuduo.dir/Thread.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Thread.cc -o CMakeFiles/mymuduo.dir/Thread.cc.s
 
 CMakeFiles/mymuduo.dir/Thread.cc.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/mymuduo.dir/Thread.cc.o.provides.build: CMakeFiles/mymuduo.dir/Thread
 CMakeFiles/mymuduo.dir/Channel.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Channel.cc.o: ../Channel.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mymuduo.dir/Channel.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Channel.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Channel.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Channel.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Channel.cc
 
 CMakeFiles/mymuduo.dir/Channel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Channel.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Channel.cc > CMakeFiles/mymuduo.dir/Channel.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Channel.cc > CMakeFiles/mymuduo.dir/Channel.cc.i
 
 CMakeFiles/mymuduo.dir/Channel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Channel.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Channel.cc -o CMakeFiles/mymuduo.dir/Channel.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Channel.cc -o CMakeFiles/mymuduo.dir/Channel.cc.s
 
 CMakeFiles/mymuduo.dir/Channel.cc.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/mymuduo.dir/Channel.cc.o.provides.build: CMakeFiles/mymuduo.dir/Chann
 CMakeFiles/mymuduo.dir/EventLoopThread.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoopThread.cc.o: ../EventLoopThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThread.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoopThread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/EventLoopThread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc
 
 CMakeFiles/mymuduo.dir/EventLoopThread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/EventLoopThread.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc > CMakeFiles/mymuduo.dir/EventLoopThread.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc > CMakeFiles/mymuduo.dir/EventLoopThread.cc.i
 
 CMakeFiles/mymuduo.dir/EventLoopThread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/EventLoopThread.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc -o CMakeFiles/mymuduo.dir/EventLoopThread.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/EventLoopThread.cc -o CMakeFiles/mymuduo.dir/EventLoopThread.cc.s
 
 CMakeFiles/mymuduo.dir/EventLoopThread.cc.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/mymuduo.dir/EventLoopThread.cc.o.provides.build: CMakeFiles/mymuduo.d
 CMakeFiles/mymuduo.dir/Logger.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Logger.cc.o: ../Logger.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mymuduo.dir/Logger.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Logger.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Logger.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/Logger.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/Logger.cc
 
 CMakeFiles/mymuduo.dir/Logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Logger.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Logger.cc > CMakeFiles/mymuduo.dir/Logger.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/Logger.cc > CMakeFiles/mymuduo.dir/Logger.cc.i
 
 CMakeFiles/mymuduo.dir/Logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Logger.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Logger.cc -o CMakeFiles/mymuduo.dir/Logger.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/Logger.cc -o CMakeFiles/mymuduo.dir/Logger.cc.s
 
 CMakeFiles/mymuduo.dir/Logger.cc.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/mymuduo.dir/Logger.cc.o.provides.build: CMakeFiles/mymuduo.dir/Logger
 CMakeFiles/mymuduo.dir/TcpServer.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/TcpServer.cc.o: ../TcpServer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mymuduo.dir/TcpServer.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/TcpServer.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/TcpServer.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc
 
 CMakeFiles/mymuduo.dir/TcpServer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/TcpServer.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc > CMakeFiles/mymuduo.dir/TcpServer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc > CMakeFiles/mymuduo.dir/TcpServer.cc.i
 
 CMakeFiles/mymuduo.dir/TcpServer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/TcpServer.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc -o CMakeFiles/mymuduo.dir/TcpServer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/TcpServer.cc -o CMakeFiles/mymuduo.dir/TcpServer.cc.s
 
 CMakeFiles/mymuduo.dir/TcpServer.cc.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/mymuduo.dir/TcpServer.cc.o.provides.build: CMakeFiles/mymuduo.dir/Tcp
 CMakeFiles/mymuduo.dir/CurrentThread.cc.o: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/CurrentThread.cc.o: ../CurrentThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elena/桌面/elena/muduo/mymuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mymuduo.dir/CurrentThread.cc.o"
-	/bin/x86_64-redhat-linux-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/CurrentThread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymuduo.dir/CurrentThread.cc.o -c /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc
 
 CMakeFiles/mymuduo.dir/CurrentThread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/CurrentThread.cc.i"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc > CMakeFiles/mymuduo.dir/CurrentThread.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc > CMakeFiles/mymuduo.dir/CurrentThread.cc.i
 
 CMakeFiles/mymuduo.dir/CurrentThread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/CurrentThread.cc.s"
-	/bin/x86_64-redhat-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc -o CMakeFiles/mymuduo.dir/CurrentThread.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elena/桌面/elena/muduo/mymuduo/CurrentThread.cc -o CMakeFiles/mymuduo.dir/CurrentThread.cc.s
 
 CMakeFiles/mymuduo.dir/CurrentThread.cc.o.requires:
 

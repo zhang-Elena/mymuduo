@@ -17,7 +17,7 @@ public:
                           const std::string &name = std::string());
     ~EventLoopThread();
 
-    EventLoop* startloop();
+    EventLoop* startLoop();
     
 private:
     void threadFunc();

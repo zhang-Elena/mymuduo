@@ -33,10 +33,10 @@ EPollPoller::~EPollPoller(){
 void EPollPoller::updateChannel(Channel *channel){
     //index对应上面三种状态
     const int index = channel->index();
-    LOG_INFO("func=%s fd=%d events=%d index=%d",__FUNCTION__, channel->fd(), channel->events(),index);
+    LOG_INFO("func=%s => fd=%d events=%d index=%d \n",__FUNCTION__, channel->fd(), channel->events(),index);
 
     if(index == kNew || index == kDeleted){
-        if( index == kNew){
+        if(index == kNew){
             int fd = channel->fd();
             channels_[fd] = channel;
         }

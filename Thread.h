@@ -7,6 +7,7 @@
 #include <memory>
 #include <string>
 #include <atomic>
+#include <unistd.h>
 
 
 class Thread : noncopyable{
@@ -35,7 +36,7 @@ private:
     pid_t tid_;
     ThreadFunc func_;
     std::string name_;
-    static std::atomic<std::int32_t> numCreated_;
+    static std::atomic_int numCreated_;
 
 
 };

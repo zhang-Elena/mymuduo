@@ -14,7 +14,7 @@
 #include <netinet/tcp.h>
 #include <string>
 
-EventLoop* checkLoopNotNull(EventLoop* loop){
+static EventLoop* CheckLoopNotNull(EventLoop* loop){
     if(loop == nullptr){
         LOG_FATAL("%s:%s:%d TcpConnection Loop is null! \n",__FILE__, __FUNCTION__, __LINE__);
     }
@@ -23,7 +23,7 @@ EventLoop* checkLoopNotNull(EventLoop* loop){
 
 TcpConnection::TcpConnection(EventLoop *loop, const std::string& nameArg, int sockfd,
                   const InetAddress& localAddr, const InetAddress& peerAddr)
-                  : loop_(checkLoopNotNull(loop))
+                  : loop_(CheckLoopNotNull(loop))
                   , name_(nameArg)
                   , state_(kConnecting)
                   , reading_(true)
@@ -104,8 +104,8 @@ void TcpConnection::sendInLoop(const void* data, size_t len){
     //也就是调用TcpConnection::handleWrite方法，把发送缓冲区中的数据全部发送完成
     if(!faultError && remaining > 0){
         //目前发送缓冲区剩余的待发送数据的长度
-        ssize_t oldLen = outputBuffer_.readableBytes();
-        if(oldLen + remaining >= highWaterMark_ && oldLen < highWaterMark_ && highWaterMark_){
+        size_t oldLen = outputBuffer_.readableBytes();
+        if(oldLen + remaining >= highWaterMark_ && oldLen < highWaterMark_ && highWaterMarkCallback_){
             loop_->queueInLoop(std::bind(highWaterMarkCallback_, shared_from_this(), oldLen+remaining));
         }
         outputBuffer_.append((char*)data + nwrote, remaining);
@@ -212,7 +212,7 @@ void TcpConnection::handleError(){
     int optval;
     socklen_t optlen= sizeof optval;
     int err = 0;
-    if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &optval, &optlen)){
+    if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &optval, &optlen) < 0){
        err = errno;
     }
     else{

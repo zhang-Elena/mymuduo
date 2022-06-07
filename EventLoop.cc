@@ -13,7 +13,7 @@
 __thread EventLoop *t_loopInThisThread = nullptr;
 
 //定义默认的poller IO复用接口的超时时间
-const int kPollTimeMS = 10000;
+const int kPollTimeMs = 10000;
 
 //创建wakeupfd， 用来notify唤醒subReactor处理新来的channel
 int createEventFd(){
@@ -60,7 +60,7 @@ void EventLoop::loop(){
     while(!quit_){
         activeChannels_.clear();
         //监听两类fd 一种时client的fd，一种wakeupfd
-        pollReturnTime_ = poller_->poll(kPollTimeMS,&activeChannels_);
+        pollReturnTime_ = poller_->poll(kPollTimeMs,&activeChannels_);
         for(Channel* channel : activeChannels_){
             //poller监听哪些channel发生事件了，然后上报给EventLoop,通知channel处理相应的事件
             channel->handleEvent(pollReturnTime_);

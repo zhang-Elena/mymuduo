@@ -5,7 +5,7 @@
 #include <strings.h>
 
 
-static EventLoop* checkLoopNotNull(EventLoop* loop){
+static EventLoop* CheckLoopNotNull(EventLoop* loop){
     if(loop == nullptr){
         LOG_FATAL("%s:%s:%d mainLoop is null! \n",__FILE__, __FUNCTION__, __LINE__);
     }
@@ -15,7 +15,7 @@ static EventLoop* checkLoopNotNull(EventLoop* loop){
 
 TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr,
                      const std::string &nameArg, Option option)
-                    : loop_(checkLoopNotNull(loop))
+                    : loop_(CheckLoopNotNull(loop))
                     , ipPort_(listenAddr.toIpPort())
                     , name_(nameArg)
                     , acceptor_(new Acceptor(loop, listenAddr, option == kReusePort))
@@ -23,6 +23,7 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr,
                     , connectionCallback_()
                     , messageCallback_()
                     , nextConnId_(1)
+                    , started_(0)
 {
     //当有新用户连接时，会执行TcpServer::newConnection回调
     //两个占位符表示客户端来的fd(connfd)和地址(peerAddr) <- Acceptor::handleRead 
@@ -30,7 +31,7 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr,
                                         std::placeholders::_1, std::placeholders::_2));
 }
 TcpServer::~ TcpServer(){
-    for(auto& item : connections_){
+    for(auto &item : connections_){
         //好处：这个局部的shared_ptr智能指针对象，出右括号，可以自动释放new出来的TcpConnection对象资源
         TcpConnectionPtr conn(item.second); 
         item.second.reset();

@@ -345,6 +345,10 @@ EventLoopThreadPool.h
 /home/elena/桌面/elena/muduo/mymuduo/EventLoopThreadPool.h
 Callbacks.h
 /home/elena/桌面/elena/muduo/mymuduo/Callbacks.h
+TcpConnection.h
+/home/elena/桌面/elena/muduo/mymuduo/TcpConnection.h
+Buffer.h
+/home/elena/桌面/elena/muduo/mymuduo/Buffer.h
 string
 -
 functional
@@ -376,6 +380,8 @@ memory
 string
 -
 atomic
+-
+unistd.h
 -
 
 /home/elena/桌面/elena/muduo/mymuduo/Timestamp.cc

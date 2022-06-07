@@ -21,7 +21,7 @@ public:
         newConnectionCallback_ = cb;
     }
 
-    bool listening() {return listening_;}
+    bool listening() const {return listening_;}
 
     void listen();
 private:

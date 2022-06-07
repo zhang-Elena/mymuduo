@@ -17,7 +17,7 @@ EventLoopThread::~EventLoopThread(){
     }
 }
 
-EventLoop* EventLoopThread::startloop(){
+EventLoop* EventLoopThread::startLoop(){
     //启动底层的新线程
     thread_.start();
 
