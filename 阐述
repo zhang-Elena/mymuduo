@@ -1,0 +1,68 @@
+Channel:
+主要做封装fd、events、revents 和一组回调
+fd: 需要往poller上注册的文件描述符
+events： 需要往fd注册感兴趣的事件 比如读事件、写事件
+revents： poller最终通知的fd上发生的事件
+根据相应事件执行相应的回调操作
+
+channe的回调由上层设置
+总共有两种channel listenfd  and connection fd(connfd)
+listenfd：封装了acceptorChannel  listenfd调用的相应的回调肯定是acceptor发送的
+connfd：封装了connection channel 已连接用户发生的事件肯定是tcpserver发送的
+
+对于上层来说，如果有一个fd，就会把fd打包成channel通道，下发到poller上
+
+Poller:
+channel map => key:sockfd  value: sockfd所属的channel通道类型
+也就是当poller监测到哪一个fd上有事件发生，就可以通过发生事件的fd，通过map可以找到对应的channel，channel上记录相应的事件回调
+
+channel和poller是独立的，依赖eventloop通信，不能互相访问
+poller和channel都有eventloop记录事件循环
+
+以上可描述为：
+muduo不管是监听listen fd还是返回accept 跟客户端连接成功时，专门用于跟客户端通信的connection fd等都会打包成channel，写入fd感兴趣的事件(读或者写)，然后注册到poller相应的loop上去
+poller为epoll poller 底层为epoll，意味着底层通过epoll control 把相应的channel里包含的fd注册到epoll上
+epoll返回时，poller上有数据类型为哈希表的成员，可通过sockfd找到相应的channel，调用相应的回调
+
+poller和epollpoller相当于demultiplex 事件分发器
+eventloop相当于reactor
+
+eventloop：
+包含一系列的channel和一个poller和wakeup fd
+其中成员vector存了一堆回调，每一个回调执行时都应该在对应的线程执行，如果当前线程就是对应的线程则执行回调，否则存在vector中唤醒相应的线程执行
+其中比较重要含有weakupfd和wakeupchannel，主要作用是一个wakeupfd是隶属于一个loop，每一个loop都有一个wakeupfd，当没有事件发生时，相应的loop线程是阻塞的，阻塞在epoll wait上，如果想唤醒某一个loop所在的线程，直接通过loop对象获取wakeup fd，直接往wakeupfd上写东西，相应的loop就会唤醒。因为每一个loop的wakeup也封装为wakeup channel注册在自己loop底层的epoll上（事件分发器）
+
+channel、poller和epollpoller、eventloop关系
+channel通过eventloop获取poller对象来进行设置
+poller检测到sockfd有相应事件发生，通知eventloop调用相应的polller处理
+
+thread和eventloopthread
+
+eventloopthreadpool
+getNextLoop:() 通过轮询算法获取下一个subLoop，如果客户没有设置多线程即setThreadNumber，则此函数永远返回baseLoop（mainLoop）
+当设置setThreadNumber线程数量时，eventloopthreadpool通过底层开始创建线程，一个thread对应一个loop -----one loop thread pool
+
+acceptor：
+主要封装了listenfd相关的操作，创建socket 绑定bind listen 
+listen成功后把acceptor listenfd 打包为accept channel 给baseloop监听事件
+
+buffer：
+缓冲区，对于non-blocking都应该设置缓冲区 应用写数据-》缓冲区-》Tcp发送缓冲区-》send
+缓冲区里有 prependable  readeridx   writeidx
+muduo这个模块模仿java里面netty网络库中的channel buffer
+
+
+TcpConnection
+一个连接成功的客户端对应一个TcpConnection
+封装了socket channel 和一堆回调  发送和接受缓冲区
+channel上connection fd(connfd)回调都是有这个设置
+
+Tcpserver：
+acceptor  eventloopthreadpool
+acceptor得到新用户，通过getNextLoop，才能把新用户封装成tcpconnection设置一堆回调后，才能选择subloop选择一个loop
+
+
+
+优点
+1. 与muduo库相比，没有依赖boost进行编程，采用C++11
+   eg：智能指针、互斥锁等。 因此使用时直接执行编写的脚本进行安装，把相应的头文件和编译的so库安装在系统中，可直接使用，简单方便
